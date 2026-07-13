@@ -66,7 +66,7 @@ void LuaStyle::Parse(std::map<std::string, std::string, std::less<>> &configMap)
     }
 
     // for editorconfig Domain-Specific Properties
-    IF_EXIST(qoute_type) {
+    IF_EXIST(quote_type) {
         if (value == "single") {
             quote_style = QuoteStyle::Single;
         } else if (value == "double") {
